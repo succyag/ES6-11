@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>let</title>
+</head>
+<body>
+    <script>
+        // 1. 变量不能重复声明
+        // let star = 'succyag'
+        // let star = '小猪'
+
+        // 2. 块级作用域
+        // {
+        //     let girl = 'cj'
+        // }
+        // console.log(cj);
+        // if else while for
+
+        // 3. 不存在变量提升
+        // console.log(song);
+        // let song = 'Animals'
+
+        // 4. 不影响作用域链
+        {
+            let name = 'succyag'
+            function fn () {
+                console.log(name);
+            }
+            fn()
+        }
+    </script>
+</body>
+</html>
